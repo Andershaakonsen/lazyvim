@@ -13,7 +13,7 @@ return {
     "navarasu/onedark.nvim",
     opts = {
       style = "cool",
-      transparent = false, -- Show/hide background
+      transparent = true, -- Show/hide background
       name = "test-onedarkk",
     },
   },

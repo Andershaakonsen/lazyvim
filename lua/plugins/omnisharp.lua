@@ -1,17 +1,4 @@
-local util = require("util")
-
 return {
-
-  -- Add C# to treesitter
-  {
-    "nvim-treesitter/nvim-treesitter",
-    opts = function(_, opts)
-      if type(opts.ensure_installed) == "table" then
-        util.list_insert_unique(opts.ensure_installed, "c_sharp")
-      end
-    end,
-  },
-
   -- Correctly setup lspconfig for C# 🚀
   {
     "neovim/nvim-lspconfig",
