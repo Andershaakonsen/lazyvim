@@ -14,5 +14,5 @@ return {
   },
   { "folke/zen-mode.nvim", lazy = true },
   { "christoomey/vim-tmux-navigator" },
-  { "iamcco/markdown-preview.nvim", lazy = true },
+  { "iamcco/markdown-preview.nvim" },
 }
