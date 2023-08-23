@@ -14,7 +14,7 @@ return {
     opts = {
       style = "cool",
       transparent = true, -- Show/hide background
-      name = "test-onedarkk",
+      name = "test-onedark",
     },
   },
   {
