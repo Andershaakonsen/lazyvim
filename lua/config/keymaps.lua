@@ -211,6 +211,13 @@ vim.keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string
 
 vim.keymap.set("n", "<learder>mm", ":MarkdownPreview<cr>", { silent = true, noremap = true })
 
+-- Map Ctrl + z to show spelling suggestions
+vim.keymap.set('n', '<C-x>', 'z=', { noremap = true })
+-- Map Ctrl + z to show spelling suggestions
+
+
+
+
 -- vim.keymap.set('i', '<C-a>', 'å' , { silent = true, noremap = true })
 -- vim.keymap.set("i", "<C-o>", "ø" , { silent = true, noremap = true } )
 -- vim.keymap.set("i", "<C-e>", "æ"  , { silent = true, noremap = true })

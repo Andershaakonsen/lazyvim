@@ -1,0 +1,3 @@
+-- Transparency for WhichKeyFloat
+-- vim.cmd("hi WhichKeyFloat ctermbg=BLACK ctermfg=BLACK")
+-- vim.cmd("hi PMenu ctermbg=BLACK ctermfg=BLACK")

@@ -5,7 +5,7 @@ return {
     dependencies = {
       "nvim-treesitter",
     },
-    config = {
+    opts = {
       autotag = {
         enable = true,
       },
