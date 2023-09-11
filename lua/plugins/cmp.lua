@@ -39,6 +39,7 @@ return {
         { name = "luasnip" },
         { name = "buffer" },
         { name = "path" },
+        { name = "vim-dadbod-completion" },
       }),
       formatting = {
         format = function(_, item)
